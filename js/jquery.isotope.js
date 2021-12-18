@@ -16,9 +16,6 @@
     return str.charAt(0).toUpperCase() + str.slice(1);
   };
 
-  // ========================= getStyleProperty by kangax ===============================
-  // http://perfectionkills.com/feature-testing-css-properties/
-
   var prefixes = 'Moz Webkit O Ms'.split(' ');
 
   var getStyleProperty = function( propName ) {

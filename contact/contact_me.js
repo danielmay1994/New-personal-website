@@ -1,15 +1,10 @@
-/*
-  Jquery Validation using jqBootstrapValidation
-   example is taken from jqBootstrapValidation docs 
-  */
+
 $(function() {
 
  $("input,textarea").jqBootstrapValidation(
     {
      preventSubmit: true,
      submitError: function($form, event, errors) {
-      // something to have when submit produces an error ?
-      // Not decided if I need it yet
      },
      submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
@@ -23,7 +18,7 @@ $(function() {
 	   firstName = name.split(' ').slice(0, -1).join(' ');
          }        
 	 $.ajax({
-                url: "contact/contact_me.php",
+                url: "https://daniel-web-developer.netlify.app/",
             	type: "POST",
             	data: {name: name, email: email, message: message},
             	cache: false,
