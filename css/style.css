@@ -1,4 +1,3 @@
-
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
@@ -193,7 +192,6 @@ figure.effect-oscar:hover p {
     -webkit-transform: scale(1);
     transform: scale(1);
     color: #fff;
-    +++++++
 }
 
 figure.effect-oscar:hover figcaption {
@@ -216,7 +214,7 @@ body {
     background: -o-linear-gradient(left, rgba(73, 165, 191, 1) 0%, rgba(73, 165, 191, 1) 40%, rgba(117, 189, 209, 1) 54%, rgba(143, 203, 220, 1) 71%, rgba(147, 206, 222, 1) 74%);
     background: -ms-linear-gradient(left, rgba(73, 165, 191, 1) 0%, rgba(73, 165, 191, 1) 40%, rgba(117, 189, 209, 1) 54%, rgba(143, 203, 220, 1) 71%, rgba(147, 206, 222, 1) 74%);
     background: linear-gradient(to right, rgba(73, 165, 191, 1) 0%, rgba(73, 165, 191, 1) 40%, rgba(117, 189, 209, 1) 54%, rgba(143, 203, 220, 1) 71%, rgba(147, 206, 222, 1) 74%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#49a5bf', endColorstr='#93cede', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#49a5bf', endColorstr='#93cede', GradientType=1);
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -323,12 +321,10 @@ p {
 .navStyle ul li {
     display: inline-block;
     margin: 0 5px;
-    float: initial;
 }
 
 .navStyle ul li:first-child {
-    /*margin:0px;*/
-    ;
+    margin: 0px;
 }
 
 .navStyle ul li:last-child {
@@ -545,8 +541,6 @@ a.read_more:hover {
     padding: 40px 0 40px;
 }
 
-.service_section {}
-
 .service_block {
     text-align: center;
     padding-left: 15px;
@@ -632,7 +626,6 @@ a.read_more:hover {
 }
 
 .service-list-col1 i {
-    display: ;
     color: #888;
     font-size: 19px;
     font-style: normal;
@@ -1403,7 +1396,7 @@ img {
 }
 
 #portfolio_wrapper .one-four {
-    margin: 0!important;
+    margin: 0 !important;
     line-height: 0;
     width: 25%;
     padding: 0;
@@ -1639,7 +1632,7 @@ img {
 }
 
 .project-section-title h1 {
-    margin-bottom: 5px!important;
+    margin-bottom: 5px !important;
     letter-spacing: 1px;
     font-family: 'Raleway', sans-serif;
 }
@@ -1809,7 +1802,6 @@ div.mc-image {
     bottom: 40px;
     padding: 10px 20px;
     text-indent: 0px;
-    moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
     z-index: 1000;
@@ -1884,108 +1876,134 @@ div.mc-image {
         width: auto;
         text-align: center;
     }
+
     .aboutUs-container {
         background-image: none;
     }
+
     p {
         font-size: 14px;
     }
+
     .top_cont_outer {
         height: 420px;
     }
+
     .hero_section {
         position: relative;
         padding-top: 10px;
     }
+
     .top_left_cont {
         padding: 38px 0;
     }
+
     .top_left_cont h2 {
         font-size: 25px;
         color: #FFF;
         line-height: 39px;
         margin: 0 0 9px 0;
     }
+
     .inner_section {
         padding: 20px 0 20px;
     }
+
     #aboutUs img {
         margin-bottom: 20px;
     }
+
     #aboutUs h3 {
         font-size: 26px;
         line-height: 22px;
     }
+
     .service_block h3 {
         font-size: 16px;
     }
+
     service_block p {
         font-size: 14px;
         margin: 0px;
         margin-bottom: 20px;
     }
+
     #filters ul {
         padding-left: 0px;
     }
+
     .form {
         margin: 0 18px;
     }
+
     .page_section.team {
         padding: 40px 0;
     }
-    ,
+
     #clients {
         padding: 40px 0;
     }
+
     .client_logos ul li {
         display: inline;
         margin: 0 25px;
         padding: 11px 0;
         display: inline-block;
     }
-    .social_links li {}
+
     .contact_section {
         margin: 0;
     }
+
     h2,
     .contact_section h2 {
         font-size: 30px;
     }
+
     .page_section.contact {
         padding: 60px 0 50px;
     }
+
     .navbar-inverse .navbar-toggle .icon-bar {
         background: #ED5441;
     }
+
     .navbar-inverse .navbar-toggle {
         border-color: transparent;
     }
+
     .navbar-inverse .navbar-toggle:hover,
     .navbar-inverse .navbar-toggle:focus {
         background: none;
         outline: none;
     }
+
     .navStyle ul li {
         display: block;
     }
+
     .navStyle {
         float: right;
         width: 100%;
         text-align: center;
     }
+
     .navbar {
         border: 0px solid #fff;
         min-height: 40px;
         margin-bottom: 0px;
         float: right;
     }
+
     .navStyle ul li {
         display: block;
         margin: 0px;
     }
+
     .navStyle ul li:last-child {
         margin: 0px;
     }
+
     .navbar-inverse .navbar-nav>li>a {
         color: #ee6c4d;
         font-size: 12px;
@@ -1999,6 +2017,7 @@ div.mc-image {
         width: 100%;
         text-align: left;
     }
+
     .navbar {
         border: 0px solid #fff;
         min-height: 40px;
@@ -2006,9 +2025,11 @@ div.mc-image {
         float: initial;
         width: 100%;
     }
+
     .team_area {
         width: 99%;
     }
+
     .read_more2 {
         display: none;
     }
