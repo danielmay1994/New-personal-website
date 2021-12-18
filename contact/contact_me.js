@@ -5,6 +5,7 @@ $(function() {
     {
      preventSubmit: true,
      submitError: function($form, event, errors) {
+
      },
      submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
@@ -18,7 +19,7 @@ $(function() {
 	   firstName = name.split(' ').slice(0, -1).join(' ');
          }        
 	 $.ajax({
-                url: "https://daniel-web-developer.netlify.app/",
+                url: "contact/contact_me.php",
             	type: "POST",
             	data: {name: name, email: email, message: message},
             	cache: false,
