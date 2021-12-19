@@ -1,5 +1,4 @@
 <?php
-// check if fields passed are empty
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
    empty($_POST['message'])	||
@@ -13,8 +12,8 @@ $name = $_POST['name'];
 $email_address = $_POST['email'];
 $message = $_POST['message'];
 	
-// create email body and send it	
-$to = 'danielbarker0000@gmail.com'; // ----->>> put your email to receive mails
+
+$to = 'danielbarker0000@gmail.com';
 $email_subject = "Contact form submitted by:  $name";
 $email_body = "You have received a new message. \n\n".
 				  " Here are the details:\n \nName: $name \n ".
